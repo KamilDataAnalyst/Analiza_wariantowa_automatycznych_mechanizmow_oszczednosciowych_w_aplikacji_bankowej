@@ -1,7 +1,7 @@
 # 📉 Analiza wariantowa automatycznych mechanizmów oszczędnościowych (Smart Saver)
 
 ### 📈 Podgląd raportu
-![Raport Smart Saver](https://github.com/KamilDataAnalyst/Analiza_wariantowa_automatycznych_mechanizmow_oszczednosciowych_w_aplikacji_bankowej/blob/29c338eb5788915d326c71e4f47da37cdb4bded4/Raport%20pogl%C4%85dowy
+![Raport Smart Saver]([https://github.com/KamilDataAnalyst/Analiza_wariantowa_automatycznych_mechanizmow_oszczednosciowych_w_aplikacji_bankowej/blob/29c338eb5788915d326c71e4f47da37cdb4bded4/Raport%20pogl%C4%85dowy](https://github.com/KamilDataAnalyst/Analiza_wariantowa_automatycznych_mechanizmow_oszczednosciowych_w_aplikacji_bankowej/blob/5dc4ba1810ea17bf4bc467405e1b666b5992fbed/Pierwszy%20raport%20analityczny.png)
 )
 
 ---
