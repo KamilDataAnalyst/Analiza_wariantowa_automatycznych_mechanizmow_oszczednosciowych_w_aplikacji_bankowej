@@ -1,2 +1,21 @@
-# Analiza-wariantowa-automatycznych-mechanizm-w-oszcz-dno-ciowych-w-aplikacji-bankowej
-Symulacja i analiza wariantowa 4 modeli automatycznego oszczędzania w Excelu na podstawie realnych danych transakcyjnych.
+# 📉 Analiza wariantowa automatycznych mechanizmów oszczędnościowych (Smart Saver)
+
+### 📈 Podgląd raportu
+![Raport Smart Saver](<img width="3880" height="1920" alt="Pierwszy raport analityczny" src="https://github.com/user-attachments/assets/ca0b144d-e013-419c-a134-40ba280e8465" />
+)
+
+---
+
+### 🎯 Cel projektu
+Celem raportu była weryfikacja efektywności różnych wariantów automatycznego oszczędzania. Skupiłem się na znalezieniu balansu między maksymalizacją odkładanych kwot a utrzymaniem bezpiecznego salda końcowego, aby uniknąć deficytu budżetowego.
+
+### 💡 Kluczowe wnioski (Data Insights)
+* **Ryzyko mechanizmu zaokrągleń:** Wariant "Zaokrąglenie do 5 zł" generuje najwyższe oszczędności przy dużej liczbie transakcji, jednak jest obarczony wysokim ryzykiem. W listopadzie doprowadził do przekroczenia realnej nadwyżki budżetowej, skutkując **ujemnym saldem końcowym (-17,00 zł)**.
+* **Optymalny wybór (7%):** Analiza wykazała, że wariant procentowy (7%) jest najbardziej stabilny. Pozwala na zachowanie zrównoważonego salda przy jednoczesnym zachowaniu wysokiej proporcji odkładanych środków względem wydatków.
+* **Charakterystyka wydatków:** Listopad, mimo podobnej sumy wydatków co luty, charakteryzował się większą liczbą drobnych transakcji (75% poniżej 10 zł), co drastycznie wpłynęło na efektywność (i ryzyko) mechanizmu zaokrągleń.
+
+### 🛠️ Warsztat techniczny (Excel)
+W projekcie wykorzystałem formuły Excela do symulacji różnych scenariuszy na podstawie danych transakcyjnych:
+* **Logika warunkowa:** Wykorzystanie funkcji `JEŻELI` (IF) oraz `LUB` (OR) do kategoryzacji transakcji.
+* **Matematyka finansowa:** Funkcje zaokrąglające zagnieżdżone w formułach oraz funkcje agregujące (`SUMA`, `ŚREDNIA`).
+* **Wizualizacja:** Dynamiczne wykresy relacji między oszczędnościami a saldem dla łatwiejszej interpretacji trendów.
